@@ -29,7 +29,7 @@ namespace ToDoList.Tests
             Assert.AreEqual(name, result);
         }
         [TestMethod]
-        public void GetId_ReturnsCategoryId_Int()
+        public void GetId_ReturnsCategoryId_Intt()
         {
             string name = "Test Category";
             Category newCategory = new Category(name);
