@@ -76,7 +76,6 @@ namespace ToDoList.Tests
 
             //Act
             List<Item> result = newCategory.Items;
-
             //Assert
             CollectionAssert.AreEqual(newList, result);
         }
